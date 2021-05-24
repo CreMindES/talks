@@ -1,0 +1,17 @@
+name: Netlify
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: marp-action
+        env: 
+          MARP_ARGS: "-I bosch/docker-intro --output bosch/docker-intro"
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          PUBLISH_TO_BRANCH: main
+          BASE_URL: https://cremindes.netlify.app/
+        uses: ralexander-phi/marp-action@0.2
