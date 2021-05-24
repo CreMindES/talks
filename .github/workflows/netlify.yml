@@ -9,7 +9,7 @@ jobs:
       
       - name: marp-action
         env: 
-          MARP_ARGS: "-I bosch/docker-intro --output bosch/docker-intro"
+          MARP_ARGS: "-I talks/bosch/docker-intro --output talks/bosch/docker-intro"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           PUBLISH_TO_BRANCH: main
