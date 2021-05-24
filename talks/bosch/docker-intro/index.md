@@ -6,7 +6,7 @@ title: Docker Intro
 paginate: false
 _paginate: false
 
-theme: uncover
+theme: default
 style: |
   section {
     color: #555;
@@ -18,18 +18,16 @@ style: |
       font-size: 60px;
   }
 
-  section.custom {
-     font-size: 20px;
-     color: 
-  }
-
   h5 {
     font-size: 20px;
     color: grey;
-    text-align: right;
     bottom: 20px;
-    right: 20px;
+    left: 20px;
     position: absolute;
+  }
+
+  h5 a {
+    color: lightblue;
   }
 
 ---
@@ -59,6 +57,7 @@ h2 {
     - SSH
     - Direct
   - ContainerSSH - https://containerssh.io/
+
 - Docker in My Life
 ---
 
@@ -78,14 +77,14 @@ h2 {
 
 ![bg right fit](https://miro.medium.com/max/3600/0*CP98BIIBgMG2K3u5.png)
 
-##### Source: [Medium - Rocky Chen](https://medium.com/swlh/understand-dockerfile-dd11746ed183)
+##### source: [Medium - Rocky Chen](https://medium.com/swlh/understand-dockerfile-dd11746ed183)
 
 ---
 
 # Demo
 ## Docker Compose
 
-![Docker Compose bg right 50% ](https://github.com/docker/compose/raw/master/logo.png?raw=true)
+![Docker Compose bg right 50%](https://github.com/docker/compose/raw/master/logo.png?raw=true)
 
 --- 
 
@@ -93,6 +92,8 @@ h2 {
 ## Docker with GUI
 
 ![bg right size: 75%](https://miro.medium.com/max/1200/1*-a2_AsOLk5v4GjhdtLSGTw.png)
+
+##### source: [Medium - Saravanan Sundaramoorthy](https://medium.com/@SaravSun/running-gui-applications-inside-docker-containers-83d65c0db110)
 
 --- 
 
