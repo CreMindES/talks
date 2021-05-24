@@ -59,8 +59,7 @@ h2 {
     - SSH
     - Direct
   - ContainerSSH - https://containerssh.io/
-- What did Docker bring to the table for me - A personal story
-
+- Docker in My Life
 ---
 
 <!-- # What Docker is?  -->
@@ -122,8 +121,14 @@ h2 {
 
 ---
 
-# What did Docker bring to the table for me
-## A personal story
+<style scoped>
+  h1 {
+    position: absolute;
+    top: 50px;
+  }
+</style>
+
+# Docker in My Life
 
 - End (~90%) of dependency hell
 - All my projects are developed in a container native fashion
