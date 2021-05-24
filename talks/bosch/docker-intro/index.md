@@ -59,7 +59,7 @@ h2 {
     - SSH
     - Direct
   - ContainerSSH - https://containerssh.io/
-- What did Docker bring to the table - a personal story
+- What did Docker bring to the table for me - A personal story
 
 ---
 
@@ -113,11 +113,20 @@ h2 {
 ![bg right 30%](https://plugins.jetbrains.com/assets/icons/jetbrains.png)
 ![bg right 30%](https://www.docker.com/sites/default/files/d8/styles/role_icon/public/2019-07/vertical-logo-monochromatic.png?itok=erja9lKc)
 
-
-
 --- 
 
 # Demo
 ## ContainerSSH - https://containerssh.io/
 
 ![bg right size: 75%](https://containerssh.io/images/hero-header.svg)
+
+---
+
+# What did Docker bring to the table for me
+## A personal story
+
+- End (~90%) of dependency hell
+- All my projects are developed in a container native fashion
+- Saved a serious amount of time and headache
+- Better traceability
+- Helped try out new libs/tech/solutions
